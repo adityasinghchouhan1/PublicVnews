@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <CollapsibleExample />
 
-        <div className="border-1 border-bottom mt-3">
+        <div className="border-1 border-bottom mt-3 position-relative">
           <div className={styless.taza}> ताज़ा खबर</div>
           <marquee>
             <div className="d-flex justify-content-evenly fs-5">

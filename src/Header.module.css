@@ -47,7 +47,7 @@ padding: 10px;
 
 .taza{
   display: flex ;
-  position: fixed;
+  position: absolute;
   background-color: blue;
   color: white;
   font-family: 600;
