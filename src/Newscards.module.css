@@ -1,0 +1,11 @@
+.cards{
+  height: 300px;
+  width: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.cards:hover{
+  height: 300px;
+  width: 250px;
+  border: 2px solid rgba(0, 68, 255, 0.507);
+}
