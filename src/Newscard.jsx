@@ -1,29 +1,42 @@
 import React from "react";
 import styles from "./Newscards.module.css";
+import { carddata } from "./Data/Newscardata";
+import { useCollapse } from "react-collapsed";
 
 const Newscard = () => {
-  const carddata = [
-    { img: "Launching Soon", content: "Launching Soon" },
-    { img: "Launching Soon", content: "Launching Soon" },
-    { img: "Launching Soon", content: "Launching Soon" },
-    { img: "Launching Soon", content: "Launching Soon" },
-  ];
-
   return (
-    <>
-      <div className="d-flex justify-content-around mt-4 flex-wrap">
-        {carddata.map((items) => (
-          <div className={styles.cards}>
-            <div className="d-flex justify-content-center align-items-center border-1 border h-50 fw-bold fs-5">
-              {items.img}
+    <div className="d-flex justify-content-center mt-4 flex-wrap flex-column gap-1">
+      {carddata.map((items, index) => {
+        const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
+        return (
+          <div className={styles.cards} key={index}>
+            <div className={styles.news_img}>
+              <img src={items.img} alt="news" className={styles.img} />
             </div>
-            <div className="d-flex justify-content-center align-items-center  fw-bold pt-5 fs-5">
-              {items.content}
+            <div>{items.heading}</div>
+            <div className={styles.news_content}>
+              {items.news_content}
+              {!isExpanded && (
+                <div className={styles.read_more_btn} {...getToggleProps()}>
+                  Read More
+                </div>
+              )}
+              <section {...getCollapseProps()}>
+                {items.readmore}
+
+                {isExpanded && (
+                  <div className="d-flex justify-content-center align-items-center">
+                    <div className={styles.read_show_btn} {...getToggleProps()}>
+                      Show less...
+                    </div>
+                  </div>
+                )}
+              </section>
             </div>
           </div>
-        ))}
-      </div>
-    </>
+        );
+      })}
+    </div>
   );
 };
 

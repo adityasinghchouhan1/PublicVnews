@@ -5,7 +5,6 @@ import pc from "./assets/pc.jpg";
 import sarfira from "./assets/sarfira.jpg";
 import luck from "./assets/Lucknow.jpg";
 import Newscard from "./Newscard";
-
 import styless from "./Header.module.css";
 const Header = () => {
   return (
@@ -16,6 +15,8 @@ const Header = () => {
             <img src={logo} className={styless.Plogo} />
           </div>
         </div>
+
+        {/* --------- Navbar ---------- */}
         <CollapsibleExample />
 
         <div className="border-1 border-bottom mt-3 position-relative">
