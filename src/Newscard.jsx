@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Newscards.module.css";
 import { carddata } from "./Data/Newscardata";
 import { useCollapse } from "react-collapsed";
+import arrow from "./assets/newsImages/titlearrow.gif";
 
 const Newscard = () => {
   return (
@@ -13,8 +14,12 @@ const Newscard = () => {
             <div className={styles.news_img}>
               <img src={items.img} alt="news" className={styles.img} />
             </div>
-            <div>{items.heading}</div>
+
             <div className={styles.news_content}>
+              <div className={styles.heading_container}>
+                <img src={arrow} className={styles.Harrow} />
+                <h3 className={styles.news_heading}>{items.heading}</h3>
+              </div>
               {items.news_content}
               {!isExpanded && (
                 <div className={styles.read_more_btn} {...getToggleProps()}>
