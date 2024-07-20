@@ -1,6 +1,5 @@
 /* Footer.module.css */
 .site-footer{
-  position: relative;
   margin-top: 10px;
   background-image: linear-gradient(to right, blue, rgb(10, 162, 223));
   padding: 45px 0 20px;
@@ -9,20 +8,19 @@
   color:white;
   font-weight: 600;
   transition: 0.2s ease;
-  z-index: 22;
 }
 
-.site-footer:hover {
-  position:relative;
+.site-footer:hover{
   margin-top: 10px;
+  background-image: linear-gradient(to right, rgb(10, 162, 223), blue);
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  background-image: linear-gradient(to left, rgb(10, 162, 223),blue);
-
-  color:white; 
+  color:white;
   font-weight: 600;
+  transition: 0.2s ease;
 }
+
 .site-footer hr {
   border-top-color: #bbb;
   opacity: 0.5;
