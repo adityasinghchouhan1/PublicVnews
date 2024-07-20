@@ -24,12 +24,16 @@ const Header = () => {
           <marquee>
             <div className="d-flex justify-content-evenly fs-5">
               <div>
-                {" "}
                 <img src={pc} className={styless.m_img} /> Launching Soon
                 Launching Soon Launching Soon{"  "}
               </div>
               <div className="ms-4">
                 <img src={sarfira} className={styless.m_img} />
+                Launching Soon Launching Soon Launching Soon
+              </div>
+
+              <div className="ms-4">
+                <img src={luck} className={styless.m_img} />
                 Launching Soon Launching Soon Launching Soon
               </div>
 
