@@ -44,6 +44,11 @@ const Header = () => {
                 <img src={mp} className={styless.m_img} />
                 मध्यप्रदेश राज्यसभा : केपी यादव को झटका
               </div>
+
+              <div className="ms-4">
+                <img src={luck} className={styless.m_img} />
+                Launching Soon Launching Soon Launching Soon
+              </div>
             </div>
           </marquee>
         </div>
