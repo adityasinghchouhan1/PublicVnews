@@ -7,10 +7,13 @@ import n2 from "../assets/newsImages/n-2.jpeg";
 import n3 from "../assets/newsImages/n-3.jpeg";
 import cm from "../assets/newsImages/cm.jpg"
 import indorehc from "../assets/newsImages/indorehc.jpeg"
-
-
+import shivmama from "../assets/newsImages/shivrajmama.jpg"
+import acc from "../assets/newsImages/23news4.jpg"
 
 export const marqureedata = [
+  { imgs: shivmama, conetnt:"भारत सरकार जनहितैषी बजट पर पीएम व वित्त मंत्री का केंद्रीय मंत्री श्री शिवराजसिंह चौहान ने माना आभार" },
+  { imgs: acc, conetnt:"मंत्री तुलसी सिलावट की कार का एक्सीडेंट" },
+
   { imgs: cm, conetnt:"मुख्यमंत्री डॉ मोहन यादव की आज 23 जुलाई की व्यस्तताएं" },
   { imgs: indorehc, conetnt:"इंदौर हाईकोर्ट में भोजशाला मामले में सुनवाई " },
   { imgs: mnews2, conetnt:"उज्जैन बीती रात गोली चलने से हड़कंप" },
