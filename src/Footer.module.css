@@ -1,22 +1,22 @@
 /* Footer.module.css */
-.site-footer{
+.site-footer {
   margin-top: 10px;
   background-image: linear-gradient(to right, blue, rgb(10, 162, 223));
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  color:white;
+  color: white;
   font-weight: 600;
   transition: 0.2s ease;
 }
 
-.site-footer:hover{
+.site-footer:hover {
   margin-top: 10px;
   background-image: linear-gradient(to right, rgb(10, 162, 223), blue);
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  color:white;
+  color: white;
   font-weight: 600;
   transition: 0.2s ease;
 }
@@ -50,7 +50,7 @@
   display: block;
 }
 .footer-links a {
-  color:white;
+  color: white;
   font-weight: 600;
 }
 .footer-links a:active,
@@ -78,7 +78,7 @@
   margin: 0;
 }
 @media (max-width: 991px) {
-  .site-footer [class^='col-'] {
+  .site-footer [class^="col-"] {
     margin-bottom: 30px;
   }
 }

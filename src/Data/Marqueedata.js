@@ -5,10 +5,14 @@ import mnews4 from "../assets/newsImages/news8.jpeg";
 import n1 from "../assets/newsImages/n-1.jpeg";
 import n2 from "../assets/newsImages/n-2.jpeg";
 import n3 from "../assets/newsImages/n-3.jpeg";
+import cm from "../assets/newsImages/cm.jpg"
+import indorehc from "../assets/newsImages/indorehc.jpeg"
+
 
 
 export const marqureedata = [
-  { imgs: mnews1, conetnt:"बैंक लूट आरोपी गिरफ्तार" },
+  { imgs: cm, conetnt:"मुख्यमंत्री डॉ मोहन यादव की आज 23 जुलाई की व्यस्तताएं" },
+  { imgs: indorehc, conetnt:"इंदौर हाईकोर्ट में भोजशाला मामले में सुनवाई " },
   { imgs: mnews2, conetnt:"उज्जैन बीती रात गोली चलने से हड़कंप" },
   { imgs: mnews3, conetnt:"CM मोहन का बड़ा ऐलान" },
   { imgs: mnews4, conetnt:"मध्यप्रदेश राज्यसभा : केपी यादव को झटका" },
