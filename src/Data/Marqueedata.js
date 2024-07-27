@@ -9,8 +9,14 @@ import cm from "../assets/newsImages/cm.jpg"
 import indorehc from "../assets/newsImages/indorehc.jpeg"
 import shivmama from "../assets/newsImages/shivrajmama.jpg"
 import acc from "../assets/newsImages/23news4.jpg"
+import cmmohan from "../assets/newsImages/cm_mohan.jpeg"
+import as from "../assets/newsImages/asingh.jpeg"
 
 export const marqureedata = [
+
+  { imgs: cmmohan, conetnt:"दक्षिण भारत के संस्थान, मध्यप्रदेश में प्रारंभ करें औद्योगिक इकाइयां :मुख्यमंत्री डॉ. यादव मुख्यमंत्री" },
+  { imgs: as, conetnt:"अजयसिंह ने वृक्षारोपण घोटाले की जांच और भवन का स्थान बदलने को कहा " },
+
   { imgs: shivmama, conetnt:"भारत सरकार जनहितैषी बजट पर पीएम व वित्त मंत्री का केंद्रीय मंत्री श्री शिवराजसिंह चौहान ने माना आभार" },
   { imgs: acc, conetnt:"मंत्री तुलसी सिलावट की कार का एक्सीडेंट" },
 
